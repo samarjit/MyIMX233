@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name iMX233-OLinuXino-NANO_Rev_BEagle)(type Eagle)(uri C:/softwares/KiCad/share/kicad/myproj/OLINUXINO/iMX233-OLinuXino-NANO_Rev_B/kicad_files/iMX233-OLinuXino-NANO_Rev_B.lbr)(options "")(descr ""))
+  (lib (name iMX233-OLinuXino-NANO_Rev_B)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/OLINUXINO/iMX233-OLinuXino-NANO_Rev_B/kicad_files/iMX233-OLinuXino-NANO_Rev_B.mod)(options "")(descr ""))
+  (lib (name vpad)(type Eagle)(uri C:/softwares/KiCad/share/kicad/myproj/OLINUXINO/iMX233-OLinuXino-NANO_Rev_B/kicad_files/vpad.lbr)(options "")(descr ""))
+  (lib (name inductor)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/inductor.mod)(options "")(descr ""))
+  (lib (name USB)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/USB.mod)(options "")(descr ""))
+  (lib (name xtal24mhz)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/xtal24mhz.mod)(options "")(descr ""))
+  (lib (name bga169)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/bga169.mod)(options "")(descr ""))
+  (lib (name bouton)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/bouton.mod)(options "")(descr ""))
+  (lib (name FPC10)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/FPC10.mod)(options "")(descr ""))
+  (lib (name FPC37)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/FPC37.mod)(options "")(descr ""))
+)

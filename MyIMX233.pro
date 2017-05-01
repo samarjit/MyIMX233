@@ -1,4 +1,4 @@
-update=4/30/2017 9:20:05 PM
+update=5/1/2017 3:56:25 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/softwares/KiCad/share/kicad/myproj/opendous-kicad-lib-master/library/opendous
-LibName31=iMX233-OLinuXino-NANO_Rev_B
+LibName30=iMX233-OLinuXino-NANO_Rev_B
+LibName31=C:/softwares/KiCad/share/kicad/myproj/opendous-kicad-lib-master/library/opendous
