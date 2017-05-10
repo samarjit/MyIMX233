@@ -1622,7 +1622,7 @@ U 1 1 59074059
 P 2600 2300
 F 0 "R4" V 2807 2300 50  0000 C CNN
 F 1 "100K" V 2716 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2530 2300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2530 2300 50  0001 C CNN
 F 3 "" H 2600 2300 50  0001 C CNN
 	1    2600 2300
 	0    1    1    0   
@@ -1708,4 +1708,28 @@ Wire Wire Line
 	2800 6600 2800 6800
 Wire Wire Line
 	2800 6800 2500 6800
+Text Label 10550 5550 0    60   ~ 0
+VREF
+Text Label 8800 4600 0    60   ~ 0
+WE
+Text Label 8800 4700 0    60   ~ 0
+CAS
+Text Label 8800 4800 0    60   ~ 0
+RAS
+Text Label 8800 4900 0    60   ~ 0
+CS
+Text Label 8800 5100 0    60   ~ 0
+CKE
+Text Label 8800 5200 0    60   ~ 0
+CK
+Text Label 8800 5300 0    60   ~ 0
+nCK
+Text Label 8800 5450 0    60   ~ 0
+LDQS
+Text Label 8800 5550 0    60   ~ 0
+LDM
+Text Label 8800 5700 0    60   ~ 0
+UDM
+Text Label 8800 5800 0    60   ~ 0
+UDQS
 $EndSCHEMATC

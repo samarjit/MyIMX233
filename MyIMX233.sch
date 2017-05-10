@@ -1708,4 +1708,28 @@ Wire Wire Line
 	2800 6600 2800 6800
 Wire Wire Line
 	2800 6800 2500 6800
+Text Label 10550 5550 0    60   ~ 0
+VREF
+Text Label 8800 4600 0    60   ~ 0
+WE
+Text Label 8800 4700 0    60   ~ 0
+CAS
+Text Label 8800 4800 0    60   ~ 0
+RAS
+Text Label 8800 4900 0    60   ~ 0
+CS
+Text Label 8800 5100 0    60   ~ 0
+CKE
+Text Label 8800 5200 0    60   ~ 0
+CK+
+Text Label 8800 5300 0    60   ~ 0
+CK-
+Text Label 8800 5450 0    60   ~ 0
+LDQS
+Text Label 8800 5550 0    60   ~ 0
+LDM
+Text Label 8800 5700 0    60   ~ 0
+UDM
+Text Label 8800 5800 0    60   ~ 0
+UDQS
 $EndSCHEMATC
