@@ -1,4 +1,4 @@
-update=5/1/2017 3:56:25 PM
+update=5/19/2017 7:43:58 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=iMX233-OLinuXino-NANO_Rev_B
 LibName31=C:/softwares/KiCad/share/kicad/myproj/opendous-kicad-lib-master/library/opendous
+[general]
+version=1
