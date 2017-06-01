@@ -1365,12 +1365,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 8200 2650 8200
 Wire Wire Line
-	3250 8400 3250 8450
-Wire Wire Line
-	3250 8450 2800 8450
-Wire Wire Line
-	2800 8450 2800 8300
-Wire Wire Line
 	2800 8300 2650 8300
 Wire Wire Line
 	950  9200 950  9100
@@ -1732,4 +1726,22 @@ Text Label 8800 5700 0    60   ~ 0
 UDM
 Text Label 8800 5800 0    60   ~ 0
 UDQS
+Wire Wire Line
+	3250 8425 2800 8425
+Wire Wire Line
+	2800 8425 2800 8300
+Wire Wire Line
+	3250 8425 3250 8400
+Text Label 3125 8100 0    60   ~ 0
+SD0
+Text Label 3150 8200 0    60   ~ 0
+SD1
+Text Label 2675 8200 0    60   ~ 0
+SD2
+Text Label 3175 8425 0    60   ~ 0
+SD3
+Text Label 3100 8600 0    60   ~ 0
+SD_CLK
+Text Label 3175 8000 0    60   ~ 0
+SD_CMD
 $EndSCHEMATC
