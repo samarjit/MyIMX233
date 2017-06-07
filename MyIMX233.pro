@@ -1,4 +1,4 @@
-update=5/19/2017 7:43:58 AM
+update=6/7/2017 8:18:11 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,5 +60,14 @@ LibName28=contrib
 LibName29=valves
 LibName30=iMX233-OLinuXino-NANO_Rev_B
 LibName31=C:/softwares/KiCad/share/kicad/myproj/opendous-kicad-lib-master/library/opendous
-[general]
+LibName32=C:/softwares/KiCad/share/kicad/myproj/kicad-schlib-master/library/conn-fci
+[schematic_editor]
 version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/softwares/KiCad/share/kicad/myproj/MyIMX233/plot_sch
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
