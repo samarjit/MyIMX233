@@ -10,4 +10,5 @@
   (lib (name FPC10)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/FPC10.mod)(options "")(descr ""))
   (lib (name FPC37)(type Legacy)(uri C:/softwares/KiCad/share/kicad/myproj/proto2.0/FPC37.mod)(options "")(descr ""))
   (lib (name mylib)(type KiCad)(uri "$(KIPRJMOD)/mylib.pretty")(options "")(descr ""))
+  (lib (name conn-fci)(type KiCad)(uri C:/softwares/KiCad/share/kicad/myproj/kicad-pcblib-master/conn-fci.pretty)(options "")(descr ""))
 )
