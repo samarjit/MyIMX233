@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory C:/softwares/KiCad/share/kicad/myproj/MyIMX233/plot_length/Pcb-1.0))
   )
 
   (net 0 "")

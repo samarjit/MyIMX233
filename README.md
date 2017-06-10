@@ -12,3 +12,31 @@ Third driver was LibreCalc which almost proved that KiCAD can be used to design 
 So I have put together a mashup of schematic design of IMX233 and 64MB RAM. 
 
 This project is a work in progress and there is no gurantee that I will ever be able to complete it :).
+
+But if you want to try building same stuff as I am building. Go ahead and fork it.
+Download KiCad. I am using nightly version of it, because it does not require you to export the netlist and import it again in pcb editor. Make the workflow really easy.
+I can see one bug in KiCAD, which is after modifying the footprint by adding a step file. It looses the saved settings. 
+
+Once you have installed KiCAD, open *MyIMX233.pro* file. 
+
+MyIMX233.sch - Schematic file.
+MyIMX233.kicad_pcb - PCB
+ReferenceSch - contains reference materials. I uploaded all of them for providing content incase someone wants to understand the design.
+
+
+Progress: 
+
+Final version of PCB sent for fab.
+![Sent to fab](plot_pcb/MyIMX233_1.0-gerber.png)
+
+Initial version. DDR RAM child 3D missing and SD card's 3D missing.
+![Initial plot](plot_pcb/MyIMX233_0.1-3D.png)
+
+Learnt Length Matching in Kicad. 
+
+Figured out placement of components. 
+![Initial plot](plot_pcb/MyIMX233_0.0-wolength.png)
+
+Learnt basic Freecad to build the Step files of DDR SDRAM 66TSOP. Here is the project I created - https://github.com/samarjit/MT46V32M16P-5B-Freecad-Step.
+
+
