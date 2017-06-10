@@ -1,7 +1,7 @@
 # Let me see if I can build a linux Computer
 
-I am starting with freescale microprocessor MCIMX233 128 LQFP and 64MB DDR2 SDRAM.
-There is no special goal for this project. I am just curious. 
+I am starting with freescale microprocessor iMX233 128 LQFP and 64MB DDR2 SDRAM in 66TSOP. This single board computer will be bare bones with lots of GPIO exposed.
+There is no special goal for this project. I am just curious to see if it works. In future I might add an LCD.
 
 ## Drivers for this project.
 * Until recently I didn't know of a decent opensource software for PCB designing or circuit designing which can be used to design complicated circuits involving microprocessor.
