@@ -3,6 +3,29 @@
 I am starting to build a single board computer with freescale microprocessor iMX233 128 LQFP and 64MB DDR2 SDRAM in 66TSOP. This single board computer will be bare bones with lots of GPIO exposed.
 There is no special goal for this project. I am just curious to see if it works. In future I might add an LCD.
 
+## TOODs
+* 88 USB_ID SSP1_DETECT ? Should I use this to CD of SD card connector or micro USB ID pin?  In my circuit it is pulled low via LED. Tux,calculator does the same too.
+* Add option to boot resistors LCD_RS and LCD_00..LCD_05
+* 14 LCD_RS ? High for register boot mode. Or low with 47k resistor for OTP boot mode. Olimex is confusing OTP is set MMBR and LCD_RS is high.
+* Is Micro SD pullups on all pins necessary? SSP1_DETECT used?
+* Schottkey Diode D1 VDD4P2 direction. Its strange in ref diagram vs 5v wall. VDD4P2 -|>|- VDDBATT 
+* Series resistor 1E for preventing oscillations
+/in old circuit Test by removing Diode, and LED_RS to gnd via resistor.
+* RESET circuit? Make sure not to get into USB recovery mode. add zener 1.0v so that it never reached 3.3v or just remove reset circuit altogether.
+* POWER off circuit? 
+* Configure to get rid of batteries as per rev-c circuit. Add 1k resistors in DCDC_BATT and BATT and some caps to GND.
+* Need to convert the SD card connector to a cheaper version available on ebay or alibaba. 
+I got the files from https://forum.kicad.info/t/microsd-component-footprint-help/3095/5 and placed in parts/ folder. 
+It would be awesome if I can find some 3D model of it. If someone finds it please create an issue.
+
+## Installation steps
+Cloning this repository should work.
+It does use opendous
+conn_fci from https://github.com/cpavlina/kicad-pcblib.git, https://github.com/cpavlina/kicad-schlib.git
+Copy kicad-pcblib\conn-fci.pretty to  KiCad\share\kicad\modules\conn-fci.pretty
+Add kicad-schlib-master\library\conn-fci.lib  to SchematicEditor -> ComponentLibraries
+Add opendous to component libraries too.
+
 ## Drivers for this project.
 * Until recently I didn't know of a decent opensource software for PCB designing or circuit designing which can be used to design complicated circuits involving microprocessor.
 I recently discovered KiCAD which is opensource pcb designing software and people have done microprocessor design with it eg. OLinuXino. I am trying to learn PCB designing using KiCAD now.
