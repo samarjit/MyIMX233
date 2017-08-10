@@ -1,11 +1,11 @@
-(module microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5 (layer F.Cu) (tedit 591DDF02)
+(module microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5 (layer F.Cu) (tedit 597AEE0A)
   (descr "MicroSD card socket")
   (tags "MicroSD card socket")
   (attr smd)
-  (fp_text reference J2 (at 8.54 0.42 -270) (layer F.SilkS)
+  (fp_text reference J2 (at 7.747 5.461 -270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Micro_SD_Card (at -0.35 10.59) (layer F.Fab)
+  (fp_text value Micro_SD_Card (at -10.8585 0.127 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start -4.74 0.28) (end -5.14 0.28) (angle 90) (layer F.Fab) (width 0.1))
@@ -358,7 +358,7 @@
   (pad 1 smd rect (at 2.85 -7.55) (size 0.7 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -4.85 -7.55) (size 0.7 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -5.8 -7.55) (size 0.7 1.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Connectors_Hirose.3dshapes/microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5.stp
+  (model ${KIPRJMOD}/parts/DM3AT-SF-PEJM5-SD_card.stp
     (at (xyz -6.5 -6.062992125984253 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
