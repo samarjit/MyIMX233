@@ -4,6 +4,8 @@ I am starting to build a single board computer with freescale microprocessor iMX
 There is no special goal for this project. I am just curious to see if it works. In future I might add an LCD.
 
 ## TOODs
+* Increase pad lengths of LQFP footprint. 
+* Perhaps add a jumper on the 2.5v LineReg and separate out VDD_MEM to be able to test the 2.5v is not 0 due to loading. 
 * 88 USB_ID SSP1_DETECT ? Should I use this to CD of SD card connector or micro USB ID pin?  In my circuit it is pulled low via LED. Tux,calculator does the same too.
 * Add option to boot resistors LCD_RS and LCD_00..LCD_05
 * 14 LCD_RS ? High for register boot mode. Or low with 47k resistor for OTP boot mode. Olimex is confusing OTP is set MMBR and LCD_RS is high.
