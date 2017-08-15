@@ -1037,17 +1037,6 @@ F 3 "" H 4450 2550 50  0001 C CNN
 	1    4450 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper JP1
-U 1 1 592F9D70
-P 9800 1450
-F 0 "JP1" V 9800 1625 50  0000 R CNN
-F 1 "Jumper" V 9700 1700 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9800 1450 50  0001 C CNN
-F 3 "" H 9800 1450 50  0001 C CNN
-	1    9800 1450
-	0    1    1    0   
-$EndComp
 Text GLabel 4600 2650 1    60   Input ~ 0
 3v3_SYS
 $Comp
@@ -1472,7 +1461,6 @@ F 3 "" H 1375 3450 50  0001 C CNN
 	1    1225 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1125 3900
 $Comp
 L R R14
 U 1 1 5992DA70
@@ -1737,7 +1725,7 @@ Connection ~ 9700 2750
 Connection ~ 9600 2750
 Connection ~ 9500 2750
 Wire Wire Line
-	9800 1750 9800 2750
+	9800 1150 9800 2750
 Wire Wire Line
 	9800 1900 9850 1900
 Connection ~ 9800 1900
@@ -2487,10 +2475,10 @@ Wire Wire Line
 	3700 2400 3650 2400
 Connection ~ 3850 2350
 $Comp
-L Jumper JP4
+L Jumper JP1
 U 1 1 59974B70
 P 3500 2400
-F 0 "JP4" V 3475 2350 50  0000 L CNN
+F 0 "JP1" V 3475 2350 50  0000 L CNN
 F 1 "WithBatt" H 3350 2525 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 2400 50  0001 C CNN
 F 3 "" H 3500 2400 50  0001 C CNN
@@ -2522,4 +2510,12 @@ Wire Wire Line
 Wire Wire Line
 	3275 2750 3075 2750
 Connection ~ 3075 2750
+Text Label 3500 2750 0    60   ~ 0
+DCDC_BATT
+Text Label 3550 2600 0    60   ~ 0
+BATT
+Text Label 4100 2400 1    60   ~ 0
+DCDC_4P2
+Wire Wire Line
+	1125 3900 1225 3900
 $EndSCHEMATC
