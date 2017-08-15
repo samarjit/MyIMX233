@@ -1,4 +1,4 @@
-update=8/9/2017 9:27:49 PM
+update=8/12/2017 1:33:53 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -66,8 +68,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=iMX233-OLinuXino-NANO_Rev_B
+LibName30=D:/softwares/KiCad/share/myproj/OLINUXINO/iMX233-OLinuXino-NANO_Rev_B
 LibName31=D:/softwares/KiCad/share/myproj/kicad-schlib-master/library/conn-fci
 LibName32=D:/softwares/KiCad/share/myproj/opendous-kicad-lib-master/library/opendous
-[general]
-version=1
+LibName33=parts/uSD_push-push_ebay
