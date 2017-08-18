@@ -1461,7 +1461,6 @@ F 3 "" H 1375 3450 50  0001 C CNN
 	1    1225 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1125 3900
 $Comp
 L R R14
 U 1 1 5992DA70
@@ -1579,10 +1578,10 @@ $EndComp
 Text GLabel 1775 5500 3    60   Input ~ 0
 3v3_SYS
 $Comp
-L Jumper JP3
+L Jumper JP_USB_boot
 U 1 1 59949205
 P 700 4550
-F 0 "JP3" V 700 4725 50  0000 R CNN
+F 0 "JP_USB_boot" V 700 4725 50  0000 R CNN
 F 1 "USB_boot" V 600 4800 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 700 4550 50  0001 C CNN
 F 3 "" H 700 4550 50  0001 C CNN
@@ -2517,4 +2516,6 @@ Text Label 3550 2600 0    60   ~ 0
 BATT
 Text Label 4100 2400 1    60   ~ 0
 DCDC_4P2
+Wire Wire Line
+	1125 3900 1225 3900
 $EndSCHEMATC
