@@ -1,4 +1,4 @@
-update=8/12/2017 1:33:53 PM
+update=8/20/2017 11:46:28 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,16 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=C:/softwares/KiCad/share/kicad/myproj/MyIMX233/plot_sch
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [general]
 version=1
 [eeschema]
@@ -72,3 +62,13 @@ LibName30=D:/softwares/KiCad/share/myproj/OLINUXINO/iMX233-OLinuXino-NANO_Rev_B
 LibName31=D:/softwares/KiCad/share/myproj/kicad-schlib-master/library/conn-fci
 LibName32=D:/softwares/KiCad/share/myproj/opendous-kicad-lib-master/library/opendous
 LibName33=parts/uSD_push-push_ebay
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=D:/softwares/KiCad/share/myproj/MyIMX233/plot_sch
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
