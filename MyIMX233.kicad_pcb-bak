@@ -5,7 +5,7 @@
     (drawings 8)
     (tracks 7516)
     (zones 0)
-    (modules 81)
+    (modules 82)
     (nets 131)
   )
 
@@ -357,6 +357,22 @@
     (add_net VDAC_SYS)
     (add_net VDDA_SYS)
     (add_net VDDXTAL_SYS)
+  )
+
+  (module Connectors:1pin (layer F.Cu) (tedit 5999CDC0) (tstamp 59AA0CD1)
+    (at 125.857 131.8895)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
   (module mylib:LQFP-128_14x14mm_Pitch0.4mm (layer F.Cu) (tedit 59987DDD) (tstamp 59099759)
