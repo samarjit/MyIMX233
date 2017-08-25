@@ -2,7 +2,7 @@
 
 I am starting to build a single board computer with freescale microprocessor iMX233 128 LQFP and 64MB DDR2 SDRAM in 66TSOP. This single board computer will be bare bones with lots of GPIO exposed.
 There is no special goal for this project. I am just curious to see if it works. In future I might add an LCD.
-MSB Enterprise sribaru near jumma masjid - 2nd left from Moosa. Overseas hardware. - 08040929030.Soldron - 6800+tax.
+
 
 ## TOODs
 * Increase pad lengths of LQFP footprint. (done. Hope to mitigate the soldermask between pads issue  |<-0.06mm space-><-0.08mm web-><-0.06mm space->|  = 0.2mm) 
