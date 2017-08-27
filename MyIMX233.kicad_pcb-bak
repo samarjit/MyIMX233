@@ -5,7 +5,7 @@
     (drawings 18)
     (tracks 7550)
     (zones 0)
-    (modules 100)
+    (modules 101)
     (nets 134)
   )
 
@@ -363,6 +363,24 @@
     (add_net VDAC_SYS)
     (add_net VDDA_SYS)
     (add_net VDDXTAL_SYS)
+  )
+
+  (module Connectors:1pin (layer F.Cu) (tedit 59A2D57F) (tstamp 59A660AE)
+    (at 122.7836 128.5748)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path /59A6845B)
+    (fp_text reference J2 (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X01 (at 0 3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
+    (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
+      (net 2 GND))
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 59A4B869)
