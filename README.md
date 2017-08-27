@@ -10,9 +10,9 @@ There is no special goal for this project. I am just curious to see if it works.
 * 88 USB_ID SSP1_DETECT ? Should I use this to CD of SD card connector or micro USB ID pin?  In my circuit it is pulled low via LED. Tux,calculator does the same too.
 * Add option to boot resistors LCD_RS and LCD_00..LCD_05 (done)
 * 14 LCD_RS ? High for register boot mode. Or low with 47k resistor for OTP boot mode. Olimex is confusing OTP is set MMBR and LCD_RS is high. (done)
-* Is Micro SD pullups on all pins necessary? SSP1_DETECT used?
+* Is Micro SD pullups on all pins necessary? SSP1_DETECT used? (done added them in the bottom side. Data3/CS pulled low)
 * Schottkey Diode D1 VDD4P2 direction. Its strange in ref diagram vs 5v wall. VDD4P2 -|>||- VDDBATT. (done Optional)
-* Series resistor 1E for preventing oscillations
+* Series resistor 1E for preventing oscillations (done 3 series resistor added, usb, batt, 4p2)
 /in old circuit Test by removing Diode, and LED_RS to gnd via resistor.
 * RESET circuit? Make sure not to get into USB recovery mode. add zener 1.0v so that it never reached 3.3v or just remove reset circuit altogether.
 * POWER off circuit? 
@@ -20,6 +20,7 @@ There is no special goal for this project. I am just curious to see if it works.
 * Need to convert the SD card connector to a cheaper version available on ebay or alibaba. (done part-ATTEND 112J-TDAR-R01)
 I got the files from https://forum.kicad.info/t/microsd-component-footprint-help/3095/5 and placed in parts/ folder. 
 It would be awesome if I can find some 3D model of it. If someone finds it please create an issue. (Yes found)
+* Added 120R between CLK nCLK.
 
 ### Length Tuning
 * D0..D7 LDQS LDM - 39.7mm tuning (real 40.2mm)
