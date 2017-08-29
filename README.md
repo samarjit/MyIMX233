@@ -4,7 +4,7 @@ I am starting to build a single board computer with freescale microprocessor iMX
 There is no special goal for this project. I am just curious to see if it works. In future I might add an LCD.
 
 
-## TOODs
+## TODOs
 * Increase pad lengths of LQFP footprint. (done. Hope to mitigate the soldermask between pads issue  |<-0.06mm space-><-0.08mm web-><-0.06mm space->|  = 0.2mm) 
 * Perhaps add a jumper on the 2.5v LineReg and separate out VDD_MEM to be able to test the 2.5v is not 0 due to loading. (skipped)
 * 88 USB_ID SSP1_DETECT ? Should I use this to CD of SD card connector or micro USB ID pin?  In my circuit it is pulled low via LED. Tux,calculator does the same too.
